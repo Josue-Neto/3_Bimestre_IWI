@@ -1,0 +1,23 @@
+.container{
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-direction: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+
+    /* Direção:display:
+    flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; // Não permite
+    flex-wrap: wrap; // Permite
+    flex-wrap: wrap-reverse;*/
+}
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+}
