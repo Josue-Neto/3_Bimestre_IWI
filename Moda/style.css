@@ -12,7 +12,7 @@ li{
     width: 120px;
 }
 .menu li a:hover{
-    background-color: #ff38bd15;
+    background-color: #ff38bd62;
     color: rgba(255, 255, 255, 0.836);
 }
 a{
@@ -40,8 +40,8 @@ a{
     border-radius: 15px;
 }
 .container{
-    background-color: #ab85b4c0;
-    height: 800px;
+    background-color: #ec6148;
+    height: 870px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -50,12 +50,15 @@ a{
     align-content: flex-start;
 }
 .item{
-    background-color: #575353;
+    background-color: #ab85b4;
     color: #fff;
     padding: 20px;
     margin: 5px;
     width: 300px;
     display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+
 }
 img{
     width: 295px;
@@ -96,8 +99,8 @@ footer{
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
-    background-color: #656667
-    color #3a2e2e;
+    background-color: #656667;
+    color: #3a2e2e;
     cursor: pointer;
     transition: 0.3s;
 }
